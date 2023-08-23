@@ -95,6 +95,7 @@ function EnergyUsesGraph(props) {
       {
         label: "Energy",
         data: energyData,
+
         backgroundColor: energyData.map((value) => {
           if (value >= 0 && value <= 5) {
             return "blue";
